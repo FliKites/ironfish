@@ -2,7 +2,7 @@ name: Update Iron Fish Image
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Run daily at midnight
+    - cron: '* * * * *' # Run every minute
 
 jobs:
   update-image:
